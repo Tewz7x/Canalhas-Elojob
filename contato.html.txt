@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canalhas Elojob - Contato</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Canalhas Elojob - Contato</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="precos.html">Preços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Entre em Contato Conosco</h2>
+      <p>Para suporte e mais informações, entre no nosso servidor do Discord:</p>
+      <a href="https://discord.gg/npCjqhNRH4" target="_blank">Acessar Discord</a>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Canalhas Elojob. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

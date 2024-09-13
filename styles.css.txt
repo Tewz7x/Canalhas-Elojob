@@ -1,0 +1,35 @@
+/* Estilo básico para o site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: #3a0d6a; /* Cor de fundo roxa */
+}
+
+/* Cabeçalho e navegação */
+header {
+  background: #5c2a91; /* Tom de roxo mais claro */
+  padding: 10px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+ 

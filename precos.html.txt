@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canalhas Elojob - Preços</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function calcularPreco() {
+      const precos = {
+        "ferro": 0,
+        "bronze": 15,
+        "prata": 25,
+        "ouro": 35,
+        "platina": 45,
+        "diamante": 55,
+        "imortal": 70,
+        "radiante": 150
+      };
+
+      const eloAtual = document.getElementById("elo-atual").value;
+      const eloDesejado = document.getElementById("elo-desejado").value;
+
+      let preco = 0;
+      let e = false;
+
+      const elos = ["ferro", "bronze", "prata", "ouro", "platina", "diamante", "imortal", "radiante"];
+      let atualIndex = elos.indexOf(eloAtual);
+      let desejadoIndex = elos.indexOf(eloDesejado);
+
+      if (atualIndex !== -1 && desejadoIndex !== -1 && atualIndex <= desejadoIndex) {
+        for (let i = atualIndex; i < desejadoIndex; i++) {
+          preco += precos[elos[i + 1]];
+        }
+        document.getElementById("resultado").innerText = `O preço para subir do ${eloAtual} para o ${eloDesejado} é R$ ${preco}.`;
+      } else {
+        e = true;
+      }
+
+      if (e) {
+        document.getElementById("resultado").innerText = "Selecione elos válidos.";
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Canalhas Elojob - Preços</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="precos.html">Preços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Calcule o Preço do Seu Elojob</h2>
+      <form onsubmit="event.preventDefault(); calcularPreco();">
+        <label for="elo-atual">Elo Atual:</label>
+        <select id="elo-atual">
+          <option value="ferro">Ferro</option>
+          <option value="bronze">Bronze</option>
+          <option value="prata">Prata</option>
+          <option value="ouro">Ouro</option>
+          <option value="platina">Platina</option>
+          <option value="diamante">Diamante</option>
+          <option value="imortal">Imortal</option>
+          <option value="radiante">Radiante</option>
+        </select>
+        
+        <label for="elo-desejado">Elo Desejado:</label>
+        <select id="elo-desejado">
+          <option value="ferro">Ferro</option>
+          <option value="bronze">Bronze</option>
+          <option value="prata">Prata</option>
+          <option value="ouro">Ouro</option>
+          <option value="platina">Platina</option>
+          <option value="diamante">Diamante</option>
+          <option value="imortal">Imortal</option>
+          <option value="radiante">Radiante</option>
+        </select>
+
+        <button type="submit">Calcular Preço</button>
+      </form>
+      
+      <p id="resultado"></p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Canalhas Elojob. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

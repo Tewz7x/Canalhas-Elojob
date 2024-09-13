@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canalhas Elojob - Página Inicial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Canalhas Elojob</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="precos.html">Preços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="video-container">
+        <video controls poster="video-poster.jpg" id="promo-video">
+          <!-- Substitua "video-poster.jpg" pelo caminho da imagem de pré-visualização do vídeo -->
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+      <div class="description">
+        <p>Venha sair do low elo com nosso elojob. É rápido e seguro, em pouco tempo você alcança o tão sonhado high elo. Nossos serviços são seguros e práticos; fazemos elojob direto na sua conta ou jogando com você, como preferir. Abaixo estarão algumas observações:</p>
+        <ul>
+          <li>Se for elojob em duo, será jogado em um horário definido; se não comparecer, perde a vez.</li>
+          <li>Nossa elojob tem um tempo definido, então é proibido entrar na conta nesse tempo caso sua conta esteja em processo de elojob.</li>
+          <li>Se xingar nossos players que estarão fazendo seu elojob, o serviço será cancelado.</li>
+          <li>É proibido pressionar nossos players; eles são como você e nem sempre estão no melhor dia. Caso perca a partida, não se estresse; apenas vá para a próxima.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Canalhas Elojob. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
