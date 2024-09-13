@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background-image: url('https://wallpapers.com/images/high/joker-with-clowns-pmvi6pql4qb9bfeo.webp'); /* Nova imagem de fundo */
+  background-image: url('https://wallpapers.com/images/high/joker-with-clowns-pmvi6pql4qb9bfeo.webp'); /* Imagem de fundo */
   background-size: cover; /* Ajusta a imagem para cobrir o fundo */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita a repetição da imagem */
@@ -13,7 +13,7 @@ body {
 /* Cabeçalho e navegação */
 header {
   background: rgba(92, 42, 145, 0.8); /* Tom de roxo mais claro com transparência */
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-align: center;
   position: relative;
   z-index: 10;
@@ -21,7 +21,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem; /* Aumentado o tamanho da fonte */
 }
 
 nav ul {
@@ -32,13 +32,14 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.2rem; /* Aumentado o tamanho da fonte */
 }
 
 /* Estilo para o conteúdo principal */
@@ -58,7 +59,7 @@ main {
 
 video {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px; /* Aumentado a largura máxima do vídeo */
   border-radius: 8px;
 }
 
@@ -67,7 +68,7 @@ video {
 }
 
 .description p {
-  font-size: 1.2rem;
+  font-size: 1.5rem; /* Aumentado o tamanho da fonte */
 }
 
 .description ul {
@@ -76,30 +77,39 @@ video {
 }
 
 .description li {
-  margin-bottom: 10px;
+  margin-bottom: 15px; /* Aumentado o espaço entre itens */
+  font-size: 1.2rem; /* Aumentado o tamanho da fonte */
 }
 
 /* Estilo do formulário na página de preços */
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px; /* Aumentado o espaço entre os itens do formulário */
 }
 
 label {
-  font-size: 1.1rem;
+  font-size: 1.3rem; /* Aumentado o tamanho da fonte */
 }
 
 select, button {
-  padding: 10px;
-  font-size: 1rem;
+  padding: 15px;
+  font-size: 1.2rem; /* Aumentado o tamanho da fonte */
 }
 
 /* Rodapé */
 footer {
   background: rgba(92, 42, 145, 0.8); /* Tom de roxo mais claro com transparência */
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   position: relative;
   z-index: 10;
+  font-size: 1.2rem; /* Aumentado o tamanho da fonte */
+}
+
+/* Fundo preto semi-transparente para destaque */
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.7); /* Fundo preto com 70% de opacidade */
+  padding: 10px;
+  border-radius: 8px;
 }
