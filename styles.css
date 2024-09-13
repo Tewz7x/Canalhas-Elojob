@@ -4,9 +4,10 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background-image: url('https://wallpapers.com/images/high/joker-with-clowns-pmvi6pql4qb9bfeo.webp'); /* Substitua pelo link da imagem de palhaço */
+  background-image: url('https://wallpapers.com/images/high/joker-with-clowns-pmvi6pql4qb9bfeo.webp'); /* Nova imagem de fundo */
   background-size: cover; /* Ajusta a imagem para cobrir o fundo */
   background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
 }
 
 /* Cabeçalho e navegação */
