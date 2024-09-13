@@ -59,39 +59,11 @@
     <section>
       <h2>Calcule o Preço do Seu Elojob</h2>
       <form onsubmit="event.preventDefault(); calcularPreco();">
-        <label for="elo-atual">Elo Atual:</label>
-        <select id="elo-atual">
-          <option value="ferro">Ferro</option>
-          <option value="bronze">Bronze</option>
-          <option value="prata">Prata</option>
-          <option value="ouro">Ouro</option>
-          <option value="platina">Platina</option>
-          <option value="diamante">Diamante</option>
-          <option value="imortal">Imortal</option>
-          <option value="radiante">Radiante</option>
-        </select>
-        
-        <label for="elo-desejado">Elo Desejado:</label>
-        <select id="elo-desejado">
-          <option value="ferro">Ferro</option>
-          <option value="bronze">Bronze</option>
-          <option value="prata">Prata</option>
-          <option value="ouro">Ouro</option>
-          <option value="platina">Platina</option>
-          <option value="diamante">Diamante</option>
-          <option value="imortal">Imortal</option>
-          <option value="radiante">Radiante</option>
-        </select>
-
-        <button type="submit">Calcular Preço</button>
-      </form>
-      
-      <p id="resultado"></p>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2024 Canalhas Elojob. Todos os direitos reservados.</p>
-  </footer>
-</body>
-</html>
+        <div class="bg-overlay">
+          <label for="elo-atual">Elo Atual:</label>
+          <select id="elo-atual">
+            <option value="ferro">Ferro</option>
+            <option value="bronze">Bronze</option>
+            <option value="prata">Prata</option>
+            <option value="ouro">Ouro</option>
+            <option value="platina">Platina</option>
