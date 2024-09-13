@@ -4,12 +4,14 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background: #3a0d6a; /* Cor de fundo roxa */
+  background-image: url('https://i.pinimg.com/564x/3b/a3/40/3ba3401c08b85d2d007951bf649403ad.jpg'); /* Substitua pelo link da imagem de palhaço */
+  background-size: cover; /* Ajusta a imagem para cobrir o fundo */
+  background-position: center; /* Centraliza a imagem */
 }
 
 /* Cabeçalho e navegação */
 header {
-  background: #5c2a91; /* Tom de roxo mais claro */
+  background: rgba(92, 42, 145, 0.8); /* Tom de roxo mais claro com transparência */
   padding: 10px 20px;
   text-align: center;
   position: relative;
@@ -24,6 +26,7 @@ header h1 {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 10px 0 0 0;
 }
 
 nav ul li {
@@ -32,4 +35,70 @@ nav ul li {
 }
 
 nav ul li a {
- 
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6); /* Fundo escuro semi-transparente para melhorar a legibilidade */
+  border-radius: 8px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.video-container {
+  margin: 20px auto;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.description p {
+  font-size: 1.2rem;
+}
+
+.description ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.description li {
+  margin-bottom: 10px;
+}
+
+/* Estilo do formulário na página de preços */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+select, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Rodapé */
+footer {
+  background: rgba(92, 42, 145, 0.8); /* Tom de roxo mais claro com transparência */
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  z-index: 10;
+}
